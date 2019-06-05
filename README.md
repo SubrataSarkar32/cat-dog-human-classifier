@@ -41,14 +41,18 @@ As we observe for a low number of samples for training this cnn model has produc
 ```python
 import random,keras,cv2
 import os
-from keras.applications.resnet50 import ResNet50
+
 from keras.preprocessing import image
 from keras.models import load_model
-from keras.applications.resnet50 import preprocess_input, decode_predictions
+
 import numpy as np
 from keras.models import model_from_json
 import json
+
 def give_prediction(filename=''):
+            '''
+            Call this function with a filename of an image to get predictions
+            '''
             path = os.path.abspath(filename)
             json_file = open('model_3.json', 'r')
 
@@ -64,8 +68,8 @@ def give_prediction(filename=''):
             img = cv2.resize(img, (100, 100))
             pred = model.predict_classes(img.reshape(-1,100,100,3))
             class_label_list = ['cat','dog','human']
-            print(class_label_list[pred])
-            return class_label_list[pred]
+            print(class_label_list[pred[0]])
+            return class_label_list[pred[0]
 ```
 This cnn is for multi class classifier. In the python notebook just add path to your dataset and load the dataset and it will included for training.
 
