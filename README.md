@@ -36,7 +36,7 @@ predicted: human
 
 As we observe for a low number of samples for training this cnn model has produced rather acceptable results.
 
-###Code for using provided models for prediction on your own local machine:
+### Code for using provided models for prediction on your own local machine:
 
 ```python
 import random,keras,cv2
@@ -70,10 +70,8 @@ def give_prediction(filename=''):
 This cnn is for multi class classifier. In the python notebook just add path to your dataset and load the dataset and it will included for training.
 
 Link to the model:
-* [JSON file for structure]
-(https://www.kaggleusercontent.com/kf/15229318/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..66g68D3JLPYq0_m8UNG1ig.kgLTuGzleu9xO_UmfJi1c-MN9_BWo0vhsoEoDS_dEm_NJHs5Cln-OAadbyk_gzaN2wHesj-DmmIQXxtn2HLVkTnCQgEFZxDjkfi5UiwGkS8hfR0QTS1ZwX39lsasvBBnEqXq-U1ZYJcawe7K-lXjGJkAzsB6zbBLYbF9bTUdJ0g.RWtTHor1t9VYqItr2_SuJw/model_3.json)
-* [HDF5 weight file]
-(https://www.kaggleusercontent.com/kf/15229318/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..Zbmcs46tpjpPauPg-mxcUg.zkNpjaasCCZBeJ2MSWI7DH7YHPwOcB7jBS4tt6Hs6B0dOTsoEELVza3EUGEVTWBMBFGa9NhANcvrLUXY-BA5wuRINqvp6K-DKGvSKGOx4ezREU9kodK2M51Npq2aBSa-8H0G1GwNTMPpvq6S7-HXWwiHx48MyN979EzaihS2DwM._pFoKmc1-ZLJSDNADkQPZQ/model_3.h5)
+* [JSON file for structure](https://www.kaggleusercontent.com/kf/15229318/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..66g68D3JLPYq0_m8UNG1ig.kgLTuGzleu9xO_UmfJi1c-MN9_BWo0vhsoEoDS_dEm_NJHs5Cln-OAadbyk_gzaN2wHesj-DmmIQXxtn2HLVkTnCQgEFZxDjkfi5UiwGkS8hfR0QTS1ZwX39lsasvBBnEqXq-U1ZYJcawe7K-lXjGJkAzsB6zbBLYbF9bTUdJ0g.RWtTHor1t9VYqItr2_SuJw/model_3.json)
+* [HDF5 weight file](https://www.kaggleusercontent.com/kf/15229318/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..Zbmcs46tpjpPauPg-mxcUg.zkNpjaasCCZBeJ2MSWI7DH7YHPwOcB7jBS4tt6Hs6B0dOTsoEELVza3EUGEVTWBMBFGa9NhANcvrLUXY-BA5wuRINqvp6K-DKGvSKGOx4ezREU9kodK2M51Npq2aBSa-8H0G1GwNTMPpvq6S7-HXWwiHx48MyN979EzaihS2DwM._pFoKmc1-ZLJSDNADkQPZQ/model_3.h5)
 
 Hope you enjoy using this neural network!
 
