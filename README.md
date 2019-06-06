@@ -79,4 +79,6 @@ Link to the model:
 
 Hope you enjoy using this neural network!
 
+### Link to kaggle kernel [cnn-for-animals-cat-dog-human](https://www.kaggle.com/subratasarkar32/cnn-for-animals-cat-dog-human)
+
 If you feel you can improve this model free free to fork and submit a pull request.
